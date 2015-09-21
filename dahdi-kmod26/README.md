@@ -24,5 +24,5 @@ dahdi_enable="YES"
 
 
 Note that this driver has not yet been tested with AllStarLink on FreeBSD.  This is the intial version of the patched 
-dahdi driver, and it may not work.  Once I have compiled and setup AllStarLink's Asterisk, I will provide an update.
+dahdi driver, and it may not work.  Once I have compiled and setup AllStarLink's Asterisk on FreeBSD, I will provide an update.
 

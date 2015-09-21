@@ -1,15 +1,20 @@
 The two files here are the patched versions of files found in the /usr/ports/misc/dahdi-kmod26 port.
 
 To use these files, do the following:
+
 cd /usr/ports/misc/dahdi-kmod26
+
 make extract
+
 make patch
 
 copy the dahdi-base.c file in this repository to ./work/dahdi-freebsd-2.6.1-r10747/drivers/dahdi 
+
 copy the kernel.h file in this repository to .//work/dahdi-freebsd-2.6.1-r10747/include/dahdi
 
 
 make install
+
 
 Make sure you rename the system.conf.sample file in /usr/local/etc/dahdi to system.conf
 
